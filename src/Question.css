@@ -1,0 +1,48 @@
+.question {
+  color: black;
+}
+
+.question h1 {
+  font-size: 36px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+}
+
+.answers {
+  text-align: left;
+  padding: 20px;
+}
+
+input {
+  padding: 10px 0px 10px 0px;
+}
+
+#back-button {
+  visibility: hidden;
+}
+
+.single-answer {
+  padding: 5px;
+}
+
+.single-answer label {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 450px) {
+  .question h1 {
+    font-size: 24px;
+  }
+  .single-answer label{
+    font-size: 18px;
+  }
+  .container-main {
+    padding: 20px;
+  }
+  #question-container {
+    padding: 20px;
+  }
+  #question-container h1 {
+    font-size: 24px;
+  }
+}

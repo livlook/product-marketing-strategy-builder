@@ -1,0 +1,206 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-main {
+  /* background-color: #282c34; */
+  text-align: center;
+  background-image: url('mktg-strat-report-bkgnd-100.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container-main {
+  background-color: #F8F8F8;
+  padding: 20px 100px 50px 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container-main h1 {
+  color: black;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  padding: 20px 10px 10px 10px;
+  margin: 0px;
+}
+
+.container-main p {
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 30px 0px 30px 0px;
+}
+
+.container-main button {
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(45,6,89,1) 48%, rgba(7,12,126,1) 100%);
+  color: #F8F8F8;
+  padding: 10px 50px 10px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  position: relative;
+}
+
+.container-main button:hover {
+  background: linear-gradient(90deg, rgba(66,72,219,1) 37%, rgba(113,29,209,1) 100%);
+  padding: 10px 60px 10px 60px;
+}
+
+.container-main hr {
+  padding: 0px;
+  margin: 20px 0px 20px 0px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 30px 0 30px 0;
+  padding: 30px 10px 30px 10px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 6px 16px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 6px 6px 16px 0px rgba(0,0,0,1);
+  box-shadow: 6px 6px 16px 0px rgba(0,0,0,1);
+}
+
+.result-container h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  margin: 30px;
+  color: black;
+}
+
+.result-container h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: lighter;
+  font-size: 26px;
+  color: black;
+}
+
+.result-container p {
+  color: black;
+}
+
+.result-container button {
+  border-radius: 10px;
+  width: 200px;
+  margin: 10px auto 10px auto;
+  background: linear-gradient(90deg, rgba(45,6,89,1) 48%, rgba(7,12,126,1) 100%);
+  color: #F8F8F8;
+  padding: 10px 50px 10px 50px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  position: relative;
+}
+
+.result-container button:hover {
+  background: linear-gradient(90deg, rgba(66,72,219,1) 37%, rgba(113,29,209,1) 100%);
+  padding: 10px 60px 10px 60px;
+}
+
+.result-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 5% 0 5%;
+}
+
+.result-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-item {
+  color: black;
+  background: whitesmoke;
+  text-align: left;
+  padding: 40px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #D8D8D8;
+  opacity: 0.9;
+  -webkit-box-shadow: 6px 6px 16px 0px rgba(110,100,110,1);
+  -moz-box-shadow: 6px 6px 16px 0px rgba(110,100,110,1);
+  box-shadow: 6px 6px 16px 0px rgba(110,100,110,1);
+}
+
+.result-item h3 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0 10px 0 10px;
+}
+
+.result-item p, ul, li {
+  margin: 20px;
+  font-size: 16px;
+}
+
+#compadv {
+  width: 50%;
+}
+
+#compadv-content, #compadv h3 {
+  text-align: center !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.responses {
+  text-align: left;
+}
+
+@media screen and (max-width: 450px) {
+  #compadv {
+    width: 80%;
+  }
+  .result-container h1 {
+    font-size: 30px;
+    margin: 20px;
+  }
+  .result-item {
+    padding: 20px;
+    margin: 10px;
+  }
+  .result-item h3 {
+    font-size: 24px;
+  }
+  .result-item p, ul, li {
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .container-main {
+    padding: 20px;
+  }
+}
